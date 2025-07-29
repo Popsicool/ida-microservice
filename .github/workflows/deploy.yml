@@ -1,0 +1,14 @@
+name: Microservice test pipeline
+
+on:
+    push:
+        branches: [ "main" ]
+
+jobs:
+    greet:
+        runs-on: ubuntu-latest
+        steps:
+            - name: print "hello world"
+              run: echo "hello world"
+
+
