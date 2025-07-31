@@ -8,10 +8,10 @@ app.use(express.json())
 // Get all products
 app.get('/api/products',(req,res)=>{
     const products = [
-        {id:1,name:'Laptop',price:2000},
+        {id:1,name:'Food',price:1000000},
         {id:2,name:'Desktop',price:2500},
         {id:3,name:'Phone',price:900},
-        {id:4,name:'Tv',price:3000},
+        {id:4,name:'Decoder',price:5000},
     ]
     res.status(200).json({products})
 })
